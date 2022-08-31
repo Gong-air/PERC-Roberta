@@ -1,0 +1,42 @@
+[[032m2022-08-01 16:51:28,262[0m INFO] config.save_config_to_yaml Config saved as logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/config.yaml
+[[032m2022-08-01 16:51:28,311[0m INFO] reproduciblity.set_seed Global seed set to 100
+[[032m2022-08-01 16:51:39,238[0m INFO] prompt_base.from_file using template: {"placeholder":"text_a"}  I feel {"mask"}.
+[[032m2022-08-01 16:51:57,134[0m INFO] cuda.model_to_device Using cuda of single gpu
+[[032m2022-08-01 16:55:46,929[0m INFO] trainer.training_epoch Training epoch 0, num_steps 630,  avg_loss: 1.8212, total_loss: 1147.3316
+[[032m2022-08-01 16:55:55,675[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.4559748427672956)])
+[[032m2022-08-01 16:55:55,676[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 16:56:05,476[0m INFO] trainer.save_checkpoint Copying checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt to logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/best.ckpt...
+[[032m2022-08-01 16:56:09,357[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 16:59:59,843[0m INFO] trainer.training_epoch Training epoch 1, num_steps 1260,  avg_loss: 1.4687, total_loss: 925.2901
+[[032m2022-08-01 17:00:08,601[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.4444444444444444)])
+[[032m2022-08-01 17:00:08,602[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:00:18,720[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:04:08,491[0m INFO] trainer.training_epoch Training epoch 2, num_steps 1890,  avg_loss: 1.3168, total_loss: 829.5867
+[[032m2022-08-01 17:04:17,145[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.46855345911949686)])
+[[032m2022-08-01 17:04:17,146[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:04:26,439[0m INFO] trainer.save_checkpoint Copying checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt to logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/best.ckpt...
+[[032m2022-08-01 17:04:41,033[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:08:28,610[0m INFO] trainer.training_epoch Training epoch 3, num_steps 2520,  avg_loss: 1.1659, total_loss: 734.5117
+[[032m2022-08-01 17:08:37,307[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.4591194968553459)])
+[[032m2022-08-01 17:08:37,308[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:08:47,125[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:12:34,796[0m INFO] trainer.training_epoch Training epoch 4, num_steps 3150,  avg_loss: 1.0144, total_loss: 639.0495
+[[032m2022-08-01 17:12:43,481[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.44758909853249473)])
+[[032m2022-08-01 17:12:43,481[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:12:52,976[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:16:41,003[0m INFO] trainer.training_epoch Training epoch 5, num_steps 3780,  avg_loss: 0.8577, total_loss: 540.3450
+[[032m2022-08-01 17:16:49,703[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.4276729559748428)])
+[[032m2022-08-01 17:16:49,703[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:16:58,986[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:20:47,545[0m INFO] trainer.training_epoch Training epoch 6, num_steps 4410,  avg_loss: 0.7358, total_loss: 463.5720
+[[032m2022-08-01 17:20:56,207[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.4360587002096436)])
+[[032m2022-08-01 17:20:56,208[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:21:05,030[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:24:51,841[0m INFO] trainer.training_epoch Training epoch 7, num_steps 5040, avg_loss: 0.6684, total_loss: 421.0636
+[[032m2022-08-01 17:25:00,403[0m INFO] trainer.inference_epoch validation Performance: OrderedDict([('micro-f1', 0.429769392033543)])
+[[032m2022-08-01 17:25:00,403[0m INFO] trainer.save_checkpoint Saving checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/last.ckpt...
+[[032m2022-08-01 17:25:07,419[0m INFO] trainer.save_checkpoint Save Checkpoint finished
+[[032m2022-08-01 17:25:07,419[0m INFO] trainer.fit Stop training by reaching maximum num_training_steps
+[[032m2022-08-01 17:25:07,419[0m INFO] trainer.load_checkpoint Loading Checkpoint logs/agnews_ERCroberta_manual_template_manual_verbalizer_0801165128253391/checkpoints/best.ckpt...
+[[032m2022-08-01 17:25:11,560[0m INFO] trainer.load_checkpoint Load Checkpoint finished, the current validation metric: 0.46855345911949686
+[[032m2022-08-01 17:25:20,707[0m INFO] trainer.inference_epoch test Performance: OrderedDict([('micro-f1', 0.4339430894308943)])

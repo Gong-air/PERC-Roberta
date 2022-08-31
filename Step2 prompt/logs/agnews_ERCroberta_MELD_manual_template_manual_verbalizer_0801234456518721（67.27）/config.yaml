@@ -1,0 +1,125 @@
+calibrate: null
+checkpoint:
+  higher_better: true
+  save_best: true
+  save_lastest: true
+classification:
+  auto_t: false
+  auto_v: false
+  loss_function: cross_entropy
+  metric:
+  - micro-f1
+  parent_config: task
+dataloader:
+  decoder_max_length: 256
+  max_seq_length: 256
+  truncate_method: head
+dataset:
+  label_path_sep: null
+  name: agnews
+  path: /root/autodl-tmp/prompt/MELD/
+dev:
+  batch_size: 8
+  shuffle_data: false
+environment:
+  cuda_visible_devices: null
+  device_map: null
+  local_rank: 0
+  model_parallel: false
+  num_gpus: 1
+learning_setting: full
+logging:
+  console_level: INFO
+  datetime_format: '%m%d%H%M%S%f'
+  file_level: NOTSET
+  overwrite: true
+  path: logs/agnews_ERCroberta_MELD_manual_template_manual_verbalizer_0801234456518721
+  path_base: logs
+  pathbase: /root/prompt/logging
+  unique_string: agnews_ERCroberta_MELD_manual_template_manual_verbalizer_0801234456518721
+  unique_string_keys:
+  - dataset.name
+  - plm.model_path
+  - template
+  - verbalizer
+  - datetime
+manual_template:
+  choice: 0
+  file_path: /root/autodl-tmp/prompt/scripts/ERC_template.txt
+  mask_token: <mask>
+  optimize: null
+  parent_config: template
+  placeholder_mapping:
+    <text_a>: text_a
+    <text_b>: text_b
+  text: null
+manual_verbalizer:
+  choice: 0
+  file_path: /root/autodl-tmp/prompt/scripts/ERC_MELD_verbalizer.txt
+  label_words: null
+  multi_token_handler: first
+  num_classes: null
+  optimize: null
+  parent_config: verbalizer
+  prefix: ' '
+plm:
+  model_name: roberta
+  model_path: ERCroberta_MELD
+  optimize:
+    betas:
+    - 0.9
+    - 0.999
+    eps: 1.0e-08
+    freeze_para: false
+    lr: 5.0e-06
+    name: AdamW
+    no_decay:
+    - bias
+    - LayerNorm.weight
+    scheduler:
+      num_warmup_steps: 500
+      type: null
+    weight_decay: 0.01
+  specials_to_add:
+  - <pad>
+reproduce:
+  seed: 100
+task: classification
+template: manual_template
+template_generator:
+  beam_width: 5
+  length_limit: null
+  max_length: 20
+  plm:
+    model_name: t5
+    model_path: null
+    specials_to_add:
+    - <pad>
+  target_number: 2
+  template:
+    choice: 0
+    file_path: null
+    mask_token: <mask>
+    placeholder_mapping:
+      <text_a>: text_a
+      <text_b>: text_b
+    text: null
+test:
+  batch_size: 8
+  shuffle_data: false
+train:
+  batch_size: 12
+  clean: false
+  gradient_accumulation_steps: 1
+  max_grad_norm: -1.0
+  num_epochs: 5
+  num_training_steps: null
+  shuffle_data: true
+  teacher_forcing: false
+verbalizer: manual_verbalizer
+verbalizer_generator:
+  candidate_num: 1
+  label_word_num_per_class: 1
+  normalize: true
+  score_fct: llr
+

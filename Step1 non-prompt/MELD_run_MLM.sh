@@ -1,0 +1,11 @@
+python run_mlm.py \
+    --model_name_or_path roberta-large \
+    --train_file ./datasets/meld_withanswer_train.json \
+    --validation_file ./datasets/meld_withanswer_test.json \
+    --max_seq_length 128 \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 8 \
+    --per_device_eval_batch_size 8 \
+    --do_train \
+    --do_eval \
+    --output_dir ./output_MELD

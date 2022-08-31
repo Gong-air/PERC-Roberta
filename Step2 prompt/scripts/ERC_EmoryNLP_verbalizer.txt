@@ -1,0 +1,7 @@
+neutral
+joyful
+powerful
+mad
+sad
+scared
+peaceful
