@@ -5,7 +5,7 @@ The code for paper :
 
 **PERC Roberta：Prompt with Emotion Recognition in Conversation using Specific Roberta**
 
-![image-20220831131331417](C:\Users\Gong\AppData\Roaming\Typora\typora-user-images\image-20220831131331417.png)
+![image-20220831131331417](https://raw.githubusercontent.com/Gong-air/PERC-Roberta/main/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/fine%20tune%E6%95%B0%E6%8D%AE%E9%9B%86%20%26%20%E7%BB%98%E5%9B%BE/%E5%9B%BE%E7%89%87/model.png)
 
 For Train and Test on MELD：
 
