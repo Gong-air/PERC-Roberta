@@ -10,14 +10,14 @@ PERC Roberta：Prompt with Emotion Recognition in Conversation using Specific Ro
 For Train and Test on MELD：
 
 ```python
-cd Step2 Prompt
+cd Step2 prompt
 python main.py --config_yaml prompt_MELD.yaml
 ```
 
 For Train and Test on EmoryNLP:
 
 ```python
-cd Step2 Prompt
+cd Step2 prompt
 python main.py --config_yaml prompt.yaml
 ```
 
