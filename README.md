@@ -25,7 +25,7 @@ python main.py --config_yaml prompt.yaml
 
 The results of our proposed PERC Roberta model on MELD and EmoryNLP.
 
-|    Model     |        MELD        | EmoryNLP(Weighted F1) |
+|    Model     |        MELD        | EmoryNLP |
 | :----------: | :----------------: | :-------------------: |
 | PERC Roberta | 67.27(Weighted F1) |  39.92(Weighted F1)   |
 |              |  67.93(Micro F1)   |    43.49(Micro F1)    |
