@@ -1,9 +1,9 @@
 # PERC-Roberta
 The code for paper :
 
-**PERC Roberta：基于提示与文本增强的特定Roberta用于对话情感识别**
+*PERC Roberta：基于ERC Roberta的提示学习实现对话情感识别**
 
-**PERC Roberta：Prompt with Emotion Recognition in Conversation using Specific Roberta**
+**PERC Roberta：Emotion Recognition in Conversation using ERC Roberta with prompt Learning**
 
 ![image-20220831131331417](https://raw.githubusercontent.com/Gong-air/PERC-Roberta/main/%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/fine%20tune%E6%95%B0%E6%8D%AE%E9%9B%86%20%26%20%E7%BB%98%E5%9B%BE/%E5%9B%BE%E7%89%87/model1.png)
 
