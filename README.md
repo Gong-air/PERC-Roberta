@@ -1,7 +1,7 @@
 # PERC-Roberta
 The code for paper :
 
-*PERC Roberta：基于ERC Roberta的提示学习实现对话情感识别**
+**PERC Roberta：基于ERC Roberta的提示学习实现对话情感识别**
 
 **PERC Roberta：Emotion Recognition in Conversation using ERC Roberta with prompt Learning**
 
