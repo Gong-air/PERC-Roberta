@@ -1,4 +1,4 @@
-Get the weighted F1
+Get the weighted F1 of MELD
 ```python
 python metric.py
 ```
